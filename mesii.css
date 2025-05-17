@@ -1,0 +1,219 @@
+body {
+    background-image: url(4510462.webp);
+   border: 5px solid black;
+}
+
+#contenedor {
+
+    width: 90%;
+    margin: 5%;
+  
+    
+}
+
+hr{
+    margin: 5%;
+    width: 90%;
+}
+
+#cabecera {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid white;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+#cabecera img {
+    width: 200px;
+    height: 100px;
+}
+
+#menu ul {
+    list-style: none;
+    padding: 3px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+#menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    gap: 10px;
+
+}
+
+#menu a:hover {
+    background-color: blue;
+}
+
+
+#goles {
+    font-family: "Tagesschrift", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    padding: 15px;
+    background-color: white;
+
+}
+
+#goles h2 {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    margin: 1px;
+
+}
+
+#goles img {
+    margin: 10px;
+    width: 200px;
+    height: 180px;
+    float: left;
+
+}
+
+#biografia {
+    font-family: "Playwrite DK Loopet";
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+    padding: 15px;
+    background-color: white;
+
+
+}
+
+#biografia h2 {
+    background-color: red;
+    color: white;
+    text-align: center;
+    margin: 1px;
+
+}
+
+#biografia img {
+    margin: 10px;
+    width: 200px;
+    height: 170px;
+    float: left;
+
+}
+
+#trofeos {
+    font-family: "Underdog", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    
+    padding: 15px;
+    background-color: white;
+
+}
+
+#trofeos h2 {
+    background-color: yellow;
+    color: white;
+    text-align: center;
+    margin: 1px;
+
+}
+
+#trofeos img {
+    margin: 10px;
+    width: 200px;
+    height: 170px;
+    float: left;
+
+}
+
+#seleccion {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+    padding: 15px;
+    background-color: white;
+
+}
+
+#seleccion h2 {
+    background-color: orange;
+    color: white;
+    text-align: center;
+    margin: 1px;
+
+}
+
+#seleccion img {
+    margin: 10px;
+    width: 200px;
+    height: 170px;
+    float: left;
+
+
+}
+
+#inicio {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    width: 90%;
+    margin: 4%;
+
+}
+
+.pie {
+    width: 90%;
+    margin: 5%;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ccc;
+    font-size: 20px;
+
+}
+
+.pie .diseño {
+    color: red;
+}
+
+.pie .desarrollo {
+    color: green;
+}
+
+.pie .web {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.redes img {
+    width: 50px;
+    padding: 3px;
+    margin: -4px;
+    ;
+    background-color: white;
+
+}
+
+.isil {
+    background-color: rgb(28, 144, 190);
+    color: white;
+}
+
+.nombre {
+    background-color: black;
+    color: white;
+}
